@@ -9,7 +9,7 @@ sorting: 80
 
 Cloud Computing refers to the commoditization of computing, i.e. a world in
 which computers may be borrowed on demand from a resource pool, like renting a
-car or loaning a book from the library. The term `Cloud' comes from a model of
+car or loaning a book from the library. The term _Cloud_ comes from a model of
 the Internet, where the precise details of how everything fits together are
 fuzzy. In a strongly networked environment, it might matter less where objects
 are physically located.

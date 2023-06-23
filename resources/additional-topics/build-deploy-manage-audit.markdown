@@ -12,7 +12,7 @@ The four mission phases are sometimes referred to as
 * Build
 
   A mission is based on decisions and resources that need to be assembled or
-  `built' before they can be applied. This is the planning phase.
+  _built_ before they can be applied. This is the planning phase.
 
   In CFEngine, what you build is a template of proposed promises for the
   machines in an organization such that, if the machines all make and keep these
@@ -49,11 +49,11 @@ The four mission phases are sometimes referred to as
 At CFEngine we talk about stem cell hosts. A stem cell host is a generic
 foundation of software that is the necessary and sufficient basis for any future
 purpose. To make a finished system from this stem cell host, you only have to
-`differentiate' the system from this generic basis by running CFEngine.
+_differentiate_ the system from this generic basis by running CFEngine.
 
 Differentiation of hosts involves adding or subtracting software packages,
 and/or configuring the basic system. This strategy is cost effective, as you do
-not have to maintain more than one base-line `image' for each operating system;
+not have to maintain more than one base-line _image_ for each operating system;
 rather, you use CFEngine to implement and maintain the morphology of the
 differences. Stem cell hosts are normally built using PXE services by booting
 and installing automatically from the network.

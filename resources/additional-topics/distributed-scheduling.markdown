@@ -8,7 +8,7 @@ sorting: 80
 ## What is distributed scheduling?
 
 Scheduling refers to the execution of non-interactive processes or tasks
-(usually called `jobs') at designated times and places around a network of
+(usually called _jobs_) at designated times and places around a network of
 computers (see the Special Topics Guide on Scheduling). Distributed Scheduling
 refers to the chaining of different jobs into a coordinated workflow that spans
 several computers. For example, you schedule a processing job

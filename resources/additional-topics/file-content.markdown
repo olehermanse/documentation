@@ -38,7 +38,7 @@ and they cannot always be determined from a single source of information. To
 determine the outcome of a file we have to adopt either a fully deterministic
 approach, or live with a partial approximation.
 
-Some approaches to file editing try to `know' the intended format of a file, by
+Some approaches to file editing try to _know_ the intended format of a file, by
 hardcoding it. If the file then fails to follow this format, the algorithms
 might break. CFEngine gives you generic tools to be able to handle files in any
 line-based format, without the need to hard-code specialist knowledge about file

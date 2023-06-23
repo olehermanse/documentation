@@ -23,7 +23,7 @@ multiple levels, as in (b). You might interpret this diagram as showing a single
 point of top level management, then satellite areas of middle management each
 with their own clusters of slaves (leaf nodes). When drawing hierarchies, the
 root of the tree is placed at the top or centre of the picture and is considered
-to beauthoritative, i.e. more important than the `leaves'. Each leaf node is
+to beauthoritative, i.e. more important than the _leaves_. Each leaf node is
 then subject to the control of the root in a top down manner.
 
 The opposite of a hierarchy is a mesh or web (figure (c)), which has no special
@@ -36,7 +36,7 @@ might be more than one way of getting there.
 Mesh architectures are often robust to failure as there can be multiple `peer to
 peer' routes for passing messages or information.
 
-Top-down is is a cultural prejudice or `norm', as most human societies work in
+Top-down is is a cultural prejudice or _norm_, as most human societies work in
 this way. However it is not a necessity. A network service is bottom-up - there
 it is the leaves which drive requests that end at a single central server.
 Hierarchies are special cases of networks, and (as all special cases) they are

@@ -38,9 +38,15 @@ Sublime Text 2 and 3 users have syntax highlighting and snippets thanks to Valer
 
 ![Sublime Text](guide-writing-and-serving-policy-editors-sublime-text.jpg)
 
-## Atom
+## Zed
 
-Using Githubs hackable editor? You can get syntax highlighting with the language-cfengine3 package.
+![Zed](guide-writing-and-serving-policy-editors-zed.png)
+
+## Atom / Pulsar
+
+Using Githubs hackable editor?
+You can get syntax highlighting with the [language-cfengine3](https://github.com/olehermanse/language-cfengine3) package.
+This extension is available in both Atom (discontinued) and Pulsar, a fork of atom.
 
 ![Atom](guide-writing-and-serving-policy-editors-atom.png)
 

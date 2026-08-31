@@ -78,7 +78,7 @@ of the bundle in which it is defined:
 ### Indirection
 
 The same expansion applies to the promiser when a variable is being
-defined, so a variable's name can itself be computed:
+defined, so a variable's name can be the value of another variable expanded:
 
 ```cf3 {skip TODO}
 vars:

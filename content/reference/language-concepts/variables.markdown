@@ -80,10 +80,13 @@ of the bundle in which it is defined:
 The same expansion applies to the promiser when a variable is being
 defined, so a variable's name can be the value of another variable expanded:
 
-```cf3 {skip TODO}
-vars:
+```cf3
+bundle agent __main__
+{
+  vars:
     "key" string => "my_var";
     "$(key)" string => "value";
+}
 ```
 
 This defines a variable named `my_var`, so `$(my_var)` expands to `value`.

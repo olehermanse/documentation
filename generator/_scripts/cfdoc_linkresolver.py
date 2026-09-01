@@ -101,23 +101,12 @@ def addLinkToMap(keyword, anchor, html, config):
 
 
 def headerToAnchor(header):
-    # remove trailing hashes, allowed in markdown and
-    # interpreted by us to not include the header in the link map
-    anchor = header.lower()
-    anchor = anchor.rstrip("#").rstrip()
-    anchor = anchor.replace("--", "-")
+    # Match Hugo's heading ids (goldmark, "github" autoHeadingIDType): lowercase,
+    # drop all but alphanumerics, "-" and "_", spaces to "-". Punctuation is
+    # dropped, not replaced: "sys.uqhost" -> "sysuqhost".
+    anchor = header.rstrip("#").rstrip().lower()
+    anchor = re.sub(r"[^\w\- ]", "", anchor, flags=re.UNICODE)
     anchor = anchor.replace(" ", "-")
-    anchor = anchor.replace(":", "-")
-    anchor = anchor.replace(".", "-")
-    anchor = anchor.replace(",", "-")
-    anchor = anchor.replace("`", "-")
-    anchor = anchor.replace("/", "-")
-    anchor = anchor.replace("$", "-")
-    anchor = anchor.replace("(", "-")
-    anchor = anchor.replace(")", "-")
-    anchor = anchor.replace("--", "-")
-    anchor = anchor.replace('"', "")
-    anchor = anchor.lstrip("-").rstrip("-")
     return anchor
 
 

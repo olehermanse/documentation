@@ -45,6 +45,30 @@ The date of the system in canonical form, i.e. in the form of a class, from when
 sys.cdate = Sun_Dec__7_10_39_53_2008_
 ```
 
+### sys.cf_edition
+
+A string holding the edition of CFEngine that is running. It is `enterprise` when
+the `enterprise_edition` [hard class][Classes and decisions#Hard classes] is
+defined, and `community` otherwise.
+
+```cf3
+bundle agent __main__
+{
+  reports:
+    "This host is running the $(sys.cf_edition) edition of CFEngine";
+}
+```
+
+**Output:**
+
+```
+R: This host is running the enterprise edition of CFEngine
+```
+
+**See also:** [`sys.enterprise_version`](#sysenterprise_version)
+
+**History:** Was introduced in 3.26.0
+
 ### sys.cfengine_role
 
 The variable gives the role of the host running the policy, as a string
